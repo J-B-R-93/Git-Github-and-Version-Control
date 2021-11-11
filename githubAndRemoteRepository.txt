@@ -9,5 +9,10 @@ The remote is created, so we can push our local repository to the remote reposit
 
 "git push -u origin master"
 The code above push the local repository to the remote repository using the u flag/u option, which likes the remote and local repository
-The content is pushed toward the remote called origin, to the master branch
+The content is pushed toward the remote called origin, to the master branorigin 
 The master branch is the default branch or the main branch of all the commits
+
+On github going to insights, network then graphs, we can check the number of commits done by the number of points, displaying each point the commit messages.
+
+In the main page (<>Code), clicking on commits, we can see the commits and when the commits happened. Clicking on the commits, the changes will be displayed at those time points
+

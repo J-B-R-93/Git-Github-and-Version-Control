@@ -1,0 +1,19 @@
+Gitignore
+
+To ignore files from getting pushed to the public github platform:
+
+1-Create a hidden gitignore file by typing in the terminal
+touch .gitignore
+(can be seen by using ls -a)
+
+2-open the file by typing
+start .gitignore
+
+Note:
+To remove files from the staging area
+git rm --cached -r .
+
+3-In the gitignore file, we have to add the file name that we want to ignore when we want to commit
+specify in gitigmore the file names, each on a line, for the files that you want to ignore in the same way they are written
+
+After putting the file names in the gitignore file, adding the all the files to staging will ignore the files names in the gitignore, but the gitignore can be added to the remote repository without affecting the content of the file gitignore
