@@ -1,0 +1,13 @@
+Github remote repository
+
+On github repository
+https is the address of the github repository
+
+"git remote add origin httpsUrlOfRepositoryOnGithub"
+-origin is the name of the remote, and theoratically it can be called anything else, but by convention it is recommended to keep the name origin because most programmers are used to the conventional namings
+The remote is created, so we can push our local repository to the remote repository called origin
+
+"git push -u origin master"
+The code above push the local repository to the remote repository using the u flag/u option, which likes the remote and local repository
+The content is pushed toward the remote called origin, to the master branch
+The master branch is the default branch or the main branch of all the commits

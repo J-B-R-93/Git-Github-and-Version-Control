@@ -9,4 +9,16 @@ git status command in the terminal in the working directory will show us the sta
 
 4-To commit the file, type in the terminal git commit -m "message"
 The commit message is very important that helps to keep track of changes are made in each commit.
-To see the commit made, type git log. The git log will display the commit time, person, and a hash number that is unique for this particular commit  
+To see the commit made, type git log. The git log will display the commit time, person, and a hash number that is unique for this particular commit.
+If we have more than 1 file in the directory, by typing git add .  >> all the files will be added to the staging phase
+
+The staging area is usefull if we don't want all the file to be track or committed
+
+git diff fileName
+The command above will compare the files previous and current, what was deleted and what was added
+
+git checkout fileName
+Will role back the fileName to the last version that was commited of the fileName in my local repository
+
+
+  
