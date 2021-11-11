@@ -1,0 +1,8 @@
+Learning Version Control
+
+1-Inititialize git in the terminial in the folder created by writing git init. It is a git local repository to track the changes. The git is not visible in the folder. Writing ls -a in the terminal in the folder will allow us to see the git created, and it will be used to track changes, commit changes, and to perform version control
+
+2-We are inside the directly, and in order to start tracking the changes we need to add the file in the staging area. The staging area is an intermediate phase where you can pick and choose which files inside the working directory we want to commit.
+git status command in the terminal in the working directory will show us the status of the files. Red colors the files are inside the working directory and not in the staging area
+
+3-To add it to the staging area and start track the changes   
