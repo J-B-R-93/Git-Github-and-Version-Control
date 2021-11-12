@@ -1,0 +1,53 @@
+Branching and Merging
+
+The master is the main branch that we commit by default to.
+If we had to do some experimental code, and not directly related to the main branch, a new branch can be created to experiment while keeping some updates happening on the main branch. The experimental brach can be merged to the main branch by a merge request as well.
+
+To create a branch locally
+git branch branchName
+
+To check the braches available
+git branch
+
+The asterix show what branch you are currently at
+
+To switch to the other branch
+git checkout branchName
+
+Work what you need in the branch created, and to commit
+git add
+git commit -m "messageOfCommit"
+
+Switching branches locally will switch the files in the directory according to the branch content
+
+To check the commit
+git log
+
+
+To merge the branches, merge with the main.branch
+Go back to the master branch
+in the terminal
+git merge branchName
+
+A merge message can be added, and to merge without the merge
+:q!
+to save and quit
+
+The branchName will still exist
+
+To push to the origin master
+git push -u
+
+Check the insights network graph on github  to check the branch created and merged
+
+
+On github, if we created a repository on the master branch, put some files in it, and then we create an experimental branch in the same repository. At this point everything already existed in the master branch will be copies to the experimental branch as the initial starting point
+
+On guithub, new pull request button will compare the files in the 2 branches.
+Pull request will merge the 2 branches
+
+
+
+
+
+

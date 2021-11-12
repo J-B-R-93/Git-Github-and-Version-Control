@@ -1,0 +1,10 @@
+Git Clone
+
+Cloning a github repository into the local directory
+
+Inside github
+Open a repository that you want to clone into your local machine
+1-Click on the button download or clone
+2-Copy the URL
+3-Into the terminal and in the specified folder
+git clone CopiedURL

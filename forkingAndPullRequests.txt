@@ -1,0 +1,15 @@
+Forking and Pull Requests
+
+Forking is when someone make a copy of the remote repository into his own remote repository.
+Forking a remote repository make the repository owned by the person and has full permission to do whatever to do with the copy of the repository.
+
+Write access to specific people can be made on github, where they can change the source code (done when working in a team). Forking will create a copy and not change to original code.
+
+If user A fork a repositoy from another account B, he will have a copy of the repository on his account (A). He can clone it as well to his local machine.
+User A can work on the code, add, changes, and push the work to his own repository (A). If A is not in the trust zone and only have access to read, the only option for A is the send a pull request to B, a suggestion changes for B to incorporate it or merge it into B repository, and B has the deciding vote.
+
+If B approved the request, B can pull the request to his own repository and merge A repository with B repository.The changes will be reflected into a new commit in B.
+
+Merging the repo into the original rep will create a separate branch starting from the original with the content merged. All the contributors will be listed as well according to what was merged
+
+
